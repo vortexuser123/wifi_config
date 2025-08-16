@@ -1,0 +1,7 @@
+networks:
+  - ssid: Office-WLAN
+    auth: WPA2-PSK
+    psk: short123
+    mfp: optional
+  - ssid: Guest
+    auth: OPEN
